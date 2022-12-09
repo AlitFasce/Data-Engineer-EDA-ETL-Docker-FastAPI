@@ -64,17 +64,17 @@ El objetivo NO es realizar un datawarehouse estructurado donde podamos realizar 
 
 ## **Estructura de Carpetas**
 
-- Datasets
-        - archivos raw
+
 - EDA
+	- Datasets
+        	- archivos raw
         -  archivo jupiter Notebook (con anotaciones en markdown de los pasos realizados) 
         -  EDA Report txt
 - ETL
         - archivo jupiter Notebook (con anotaciones en markdown de los pasos realizados)
-	    - archivo funciones.py
-
-- csv_limpios
-        - visualglobal.csv (archivo generado luego de la limpieza en pandas)
+	- archivo funciones.py
+	- csv_limpios
+		- visualglobal.csv (archivo generado luego de la limpieza en pandas)
 
 
  Archivos globales: 
@@ -83,6 +83,7 @@ El objetivo NO es realizar un datawarehouse estructurado donde podamos realizar 
 -	main.py (estructura de API)
 -	dockerfile
 -	requierments.txt (para traer el al contenedor todas las herramientas que utilizamos en los demás archivos)
+- 	visualglobal.csv (archivo generado luego de la limpieza en pandas)
 
 ## **Herramientas utilizadas:**
 
