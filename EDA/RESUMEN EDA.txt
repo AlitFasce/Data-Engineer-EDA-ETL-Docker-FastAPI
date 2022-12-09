@@ -1,0 +1,58 @@
+Conclusiones del EDA: 
+
+GENERALES (considerando el objetivo y alcance de este proyecto): 
+
+    - Las columnas duration tienen tanto información en minutos como de temporadas
+
+    - Las columnas cast tienen los actores separados por una coma
+
+PARTICULARES
+
+- 1- amazon_prime_titles.csv
+    - separdor ','+ encoding utf-8
+    - cararcteres especiales [ (30) 
+    - valores faltantes 
+        - director        2082
+        - cast            1233
+        - country         8996
+        - date_added      9513
+        - rating           337
+    - 9687 registros 
+    - 12 columnas
+
+- 2- disney_plus_titles.csv
+    - separdor ','+ encoding utf-8
+    - cararcteres especiales [ (NO)  
+    - valores faltantes 
+        - director        473
+        - cast            190
+        - country         219
+        - date_added        3
+        - rating            3
+    - 1450 registros 
+    - 12 columnas
+
+- 3- hulu_titles.csv
+    - separdor ','+ encoding utf-8
+    - cararcteres especiales [ (1)  
+    - valores faltantes 
+        - director        3070
+        - cast            3073
+        - country         1453
+        - date_added        28
+        - rating           520
+        - duration         479
+        - description        4
+    - 3090 registros 
+    - 12 columnas
+
+- 4- netflix_titles.json
+    - valores faltantes 
+        - director        2634
+        - cast             825
+        - country          831
+        - date_added        10
+        - rating             4
+        - duration           3
+    - 8807 registros
+    - 12 columnas

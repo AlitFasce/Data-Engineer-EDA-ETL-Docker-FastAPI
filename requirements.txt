@@ -1,0 +1,5 @@
+fastapi==0.88.0		# Framework
+uvicorn==0.20.0		# Servidor
+pandas==1.4.4		# Libreria pandas para EDA y ETL
+
+
